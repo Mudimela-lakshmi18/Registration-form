@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registerform</title>
+    <style>
+        .button{
+           text-align: center;
+           color: rgb(15, 15, 15);
+            background-color: rgb(215, 240, 246);
+            font-size: 13px;
+            display: inline;
+            border-radius: 2px;
+            cursor: pointer;
+           
+        }
+       .button1{
+           text-align: left;
+           color: rgb(15, 15, 15);
+            background-color: rgb(215, 240, 246);
+            font-size: 13px;
+            display: inline;
+            border-radius: 2px;
+            cursor: pointer;
+            margin-left: 130px;
+            left: 50%;
+            
+           
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">JEE MAIN REGISTERFORM</h1>
+    <fieldset>
+        <legend>PERSONAL DETAILS</legend>
+    <table>
+        <form action="">
+            <tr>
+                <td>
+                    <label for="name">Candiates name:</label>
+            
+                </td>
+                <td>
+                    <input type="text" placeholder="enter name" id="name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fname">Father name:</label>
+                </td>
+                <td>
+                  <input type="text"placeholder="father's name" id="fname" required>
+        
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mn">Mothers name:</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="mother's name" id="mn" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="db">Date of Birth:</label>
+                </td>
+                <td>
+                    <input type="date" id="db" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="ff" for="ge">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" name="daa"id="ge" required>male
+                    <input  type="radio" name="daa" id="ge" required>female
+                    <input  type="radio"  name="daa"id="ge" required>prefer not to say
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ty">Identity Type:</label>
+                </td>
+                <td>
+                    <select id="ty"> 
+                        <option value="Qualifying Examination Admit Card with Photograph">Qualifying Examination Admit Card with Photograph</option>
+                        <option value="other option">other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="et">Enter qualifying exam Roll number:</label>
+                </td>
+                <td>
+                    <input type="number"placeholder="enter ...." id="d" required>
+                </td>
+        
+            </tr>
+                
+           
+  
+        </form>
+         
+    </table>
+    </fieldset><BR></BR>
+
+     <FIeldset>
+        <Legend>CONTACT DETAILS</Legend>
+     <TABLE>
+        <form action="">
+            <tr>
+                <td>
+                    <label for="ad " >Address:</label>
+                </td>
+                <td>
+                    <input type="text"placeholder="enter address..." id="ad" required >
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <label for="ci">City/Town/Village:</label>
+                </td>
+                <td>
+                    <input type="text"placeholder="enter ..." id="ci" required>
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <label for="d">District:</label>
+                </td>
+                <td>
+                    <input type="text"placeholder="enter ...." id="d" required>
+                </td>
+        
+            </tr>
+            <tr>
+                <td>
+                    <label for="s">State:</label>
+                </td>
+                <td>
+                    <input type="text"placeholder="enter ...." id="s" required>
+                </td>
+        
+            </tr>
+            <tr>
+                <td>
+                    <label for="p">Pin code:</label>
+                </td>
+                <td>
+                    <input type="number"placeholder="******" id="p" min="0" max="6" required>
+                </td>
+        
+            </tr>
+             <tr>
+                <td>
+                    <label for="ma">Email:</label>
+                </td>
+                <td>
+                    <input type="text"placeholder=".......@gmail.com" id="ma" required>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label for="ph">Phone number(+91):</label>
+                </td>
+                <td>
+                    <input type="phone" placeholder="********** "id="ph" min="0" max="10" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="op">Other contact no.(optional):</label>
+                </td>
+                <td>
+                    <input type="text"placeholder="****" id="op" required>
+                </td>
+        
+            </tr>
+        </form>
+     </TABLE>
+     <Br></Br>
+     </FIeldset>
+     <Br></Br>
+     <fieldset>
+        <legend>CHOOSE PASSWORD</legend>
+     <table>
+        <form action="">
+            <tr>
+                <td>
+                    <label for="pass">Password:</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="******" id="pass" required>
+                </td>
+           
+            </tr>
+            <tr>
+                <td>
+                    <label for="pas">Confirm Password:</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="******" id="pas" required>
+                    
+                </td>
+           
+            </tr>
+           
+            <tr>
+                <td>
+                    <label for="01">Security Question:</label>
+                </td>
+                <td>
+                   <select name="" id="01">
+                    <option value="1">which is your favourite food</option>
+                    <option value="2">favourite color</option>
+                    <option value="">Best friend's name</option>
+                   </select>
+                </td>
+           
+            </tr>
+            <tr>
+                <td>
+                    <label for="p1">Security Answer:</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="******" id="p1" required>
+                   
+                </td>
+           
+            </tr>
+
+        </form>
+       
+     </table>
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+        <legend>SECURITY PIN</legend>
+        <TABle>
+            <form action="">
+                <tr>
+                    <td>
+                        <label for="cs">Enter Security Pin(Case Sensitive):</label>
+                    </td>
+                    <td>
+                    <input type="text" name="" id="cs" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                      <label for="ee">Security pin:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="ee" required>
+                    </td>
+                </ttr>
+            </form>
+        </TABle>
+    </fieldset>
+    <Br></Br>
+    <Br></Br>
+    <input type="submit" class="button" value=" SUBMIT" required>
+    <input type="submit" class="button1" value=" RESET " required>
+   
+
+   
+    
+</body>
+
+
+</html>
+<!-- <script>
+    function{
+        let name=document.getElementById("name"); 
+        let fname=document.getElementById("fname");
+        let mn=document.getElementById("mn");
+        let db=document.getElementById("db");
+        document.writeln{}
+    }
+    
+</script> -->
